@@ -71,6 +71,12 @@ nav .linkss{
         margin-right: 20px;
         margin-left: 0;
     }
+
+    img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Helps prevent extra space below images */
+}
 }
 /* ................................................................. */
 
@@ -254,7 +260,7 @@ button:hover{
 } */
 
 .container {
-    padding-left: 50px;
+    
     
     padding-top: 150px;
     margin-bottom: 90px;
@@ -273,7 +279,7 @@ button:hover{
     position: relative;
     border-radius: 20px;
     overflow: hidden;
-    width: 300px;
+    width: 380px;
     height: 200px;
 }
 
@@ -370,6 +376,13 @@ button:hover{
     .image-box .text-overlay1{
         font-size: 18px;
     }
+    .image-box {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 270px;
+    height: 200px;
+}
 
 }
 
@@ -421,14 +434,14 @@ button:hover{
         
     } 
     .subscribe-section h2{
-        font-size: 23px;
+        font-size: 21px;
         
         margin: 0;
         padding-top: 100px;
         padding-bottom: 30px;
     }
     .subscribe-form{
-        width: 350px;
+        width: 310px;
         padding-bottom: 60px;
         /* height: 20px; */
     }
