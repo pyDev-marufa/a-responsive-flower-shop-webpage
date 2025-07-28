@@ -130,7 +130,9 @@ p{
     text-align: center;
     
 }
-
+.fon-weigh{
+    font-weight: 600;
+}
 
 button{
   background-color: red;
