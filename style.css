@@ -366,21 +366,21 @@ button:hover{
         align-items: center;
     }
     .large-box .text-overlay2 {
-        font-size: 18px;
+        font-size: 13px;
         padding: 0;
     
     }
     .large-box .subtitle2{
-        font-size: 16px;
+        font-size: 14px;
     }
     .image-box .text-overlay1{
-        font-size: 18px;
+        font-size: 13px;
     }
     .image-box {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    width: 270px;
+    width: 290px;
     height: 153px;
     }
     .large-box{
