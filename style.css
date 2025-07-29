@@ -381,8 +381,15 @@ button:hover{
     border-radius: 10px;
     overflow: hidden;
     width: 270px;
-    height: 200px;
-}
+    height: 153px;
+    }
+    .large-box{
+        height: 200px;
+    }
+
+    #secondimag{
+        border-radius: 0;
+    }
 
 }
 
@@ -512,7 +519,12 @@ button:hover{
         margin-bottom: 25px;
     }
 
+    .social{
+       align-items: center; 
+       justify-content: center;
+    }
     .social a{
+        display: flex;
         margin-right: 30px;
         margin-left: 0;
     }
