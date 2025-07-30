@@ -34,6 +34,7 @@ nav{
 
 nav a {
     text-decoration: none;
+    
     margin-left: 20px;
     align-content: center;
     
@@ -47,7 +48,13 @@ nav .cart{
     display: flex;   
 }
 
+#cartt a{
+    margin-left: 3px;
+}
 
+#cartt{
+    margin-left: 20px;
+}
 nav .linkss{
 
     display: flex;
