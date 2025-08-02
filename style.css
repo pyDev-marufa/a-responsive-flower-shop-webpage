@@ -419,6 +419,7 @@ button:hover{
     font-weight: bold;
     font-size: 50px;
     color: #F5F8FF;
+    text-align: center;
 }
 
 
@@ -433,9 +434,23 @@ button:hover{
 
 .subscribe-form{
     display: flex;
-    width: 750px;
+    width: 850px;
   
 }
+
+.form{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+input::placeholder {
+  font-weight: normal;
+  opacity: 0.5;
+  color: black;
+}
+
 
 
 @media screen and (max-width: 576px){
@@ -455,7 +470,7 @@ button:hover{
         padding-bottom: 30px;
     }
     .subscribe-form{
-        width: 270px;
+        width: 80%;
         
         padding-bottom: 60px;
         /* height: 20px; */
